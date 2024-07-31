@@ -1,0 +1,67 @@
+Se incarca...
+Scrie...
+Deconectat
+Conectat
+Ultima activitate:
+Nu sunteti prieten cu aceasta persoana.
+Cererea de prietenie a fost trimisa cu succes.
+Cererea de prietenie nu a putut fi trimisa.
+In asteptarea acceptarii cererii de prietenie.
+Inregistrare
+Conectare
+Iesire
+Trimite Mesaj
+Vizualizare Mesaje
+Trimite cerere de prietenie
+Vizualizeaza cererile de prietenie
+Vizualizeaza lista de prieteni
+Deconectare
+Accepta cerere de prietenie
+Respinge o cerere de prietenie
+Inapoi
+Introduceti actiunea dorita:
+Introduceti username-ul: 
+Introduceti parola: 
+Introduceti prenumele: 
+Introduceti numele: 
+Eroare la trimiterea cererii de inregistrare.
+Eroare la primirea raspunsului de la server.
+Eroare la inregistrarea clientului. Numele de utilizator este deja inregistrat.
+Client inregistrat cu succes.
+Eroare la trimiterea cererii de conectare.
+Combinatie invalida de nume de client si parola. Va rugam reincercati.
+Conectat cu succes.
+Se inchide clientul.
+Eroare la trimiterea cererii de parasire a clientului.
+Eroare la trimiterea cererii de deconectare.
+Eroare la deconectare.
+Deconectat cu succes.
+Eroare la trimiterea cererii de prietenie.
+Ceva s-a intamplat eronat. Va rugam verificati username-ul si incercati din nou. Daca eroarea persista, va rugam deconectati-va si reconectati-va.
+Sunteti deja prieten cu acest utilizator.
+Destinatarul voia de asemenea sa fie prieten cu dumneavoastra, asa ca am anulat cererea acestora, iar acum sunteti prieteni.
+Ati trimis deja o cerere de prietenie acestui utilizator.
+Cerere de prietenie trimisa cu succes.
+Eroare la trimiterea cererii de vizualizare a prietenilor.
+Cereri de prietenie trimise:
+Nu aveti nicio cerere de prietenie trimisa activa.
+Cereri de prietenie primite:
+Nu aveti nicio cerere de prietenie primita activa.
+Eroare la trimiterea acceptului cererii de prietenie.
+Cerere de prietenie acceptata cu succes.
+Eroare la trimiterea refuzului cererii de prietenie.
+Cerere de prietenie refuzata cu succes.
+Eroare la trimiterea cererii de vizualizare a prietenilor.
+Lista dumneavoastra de prieteni:
+Nu aveti niciun prieten.
+Dupa ce ati terminat, va rugam sa apasati orice tasta.
+Acesta este inceputul conversatiei dumneavoastra cu
+Dvs
+la
+Eroare la trimiterea cererii de vizualizare a mesajelor.
+Persoana pe care doriti sa o contactati nu este in lista dumneavoastra de prieteni. Va rugam verificati username-ul si inercati din nou.
+Alternativ, le puteti trimite o cerere de prietenie si sa astepti acceptul acestora.
+Comanda invalida.
+Nu sunteti prieten cu
+Introduceti mesajul: 
+Eroare la trimiterea mesajului.

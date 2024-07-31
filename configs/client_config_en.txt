@@ -1,0 +1,67 @@
+Loading...
+Typing...
+Disconnected
+Logged in
+Last Activity:
+You are not friends with this person.
+The friend request has been sent successfully.
+The friend request could not be sent.
+Waiting for the friend request to be accepted.
+Registration
+Log in
+Exit
+Send Message
+View Messages
+send a friend request
+View friend requests
+View the list of friends
+Log out
+Accept a friend request
+Decline a friend request
+Back
+Enter the desired action:
+Enter the username: 
+Enter the password: 
+Enter the first name: 
+Enter the name: 
+Error sending the registration request.
+Error receiving the response from the server.
+Customer registration error. Username is already registered.
+Client successfully registered.
+Error sending connection request.
+Invalid combination of customer name and password. Please try again.
+Logged in successfully.
+The client closes.
+Error sending the request to leave the client.
+Error sending logout request.
+Logout error.
+Logged out successfully.
+Error sending friend request.
+Something went wrong. Please check the username and try again. If the error persists, please disconnect and reconnect.
+You are already friends with this user.
+The recipient also wanted to be friends with you, so I canceled their request, and now you are friends.
+You have already sent a friend request to this user.
+Friend request sent successfully.
+Error sending request to view friends.
+Friend requests sent:
+You have no active friend requests sent.
+Friend requests received:
+You have no active incoming friend requests.
+Error sending friend request acceptance.
+Friend request successfully accepted.
+Error sending friend request decline.
+Friend request successfully declined.
+Error sending request to view friends.
+Your friends list:
+You don't have any friends.
+After you have finished, please press any key.
+This is the beginning of your conversation with
+You
+at
+Error sending request to view messages.
+The person you want to contact is not in your friends list. Please check the username and try again.
+Alternatively, you can send them a friend request and wait for their acceptance.
+Invalid command.
+You are not friends with
+Enter the message: 
+Error sending message.

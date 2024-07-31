@@ -1,0 +1,9 @@
+Se incarca...
+Scrie...
+Deconectat
+Conectat
+Ultima activitate:
+Nu sunteti prieten cu aceasta persoana.
+Cererea de prietenie a fost trimisa cu succes.
+Cererea de prietenie nu a putut fi trimisa.
+In asteptarea acceptarii cererii de prietenie.
