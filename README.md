@@ -97,6 +97,29 @@ In the case of the upper presented request, the reponse will look like this(if `
 > ‎ \
 > ‎ 
 
+
+## Demo screenshots
+![Romanian starting menu](<demo_screenshots/Screenshot 2024-07-31 at 20.16.20.png>)
+![English starting menu](<demo_screenshots/Screenshot 2024-07-31 at 20.16.34.png>)
+
+![English registration form](<demo_screenshots/Screenshot 2024-07-31 at 20.16.57.png>)
+
+![English logged in menu](<demo_screenshots/Screenshot 2024-07-31 at 20.17.18.png>)
+
+![Conversation opening failure due to not being friends with the recipient](<demo_screenshots/Screenshot 2024-07-31 at 20.19.03.png>)
+
+![Friend requests menu](<demo_screenshots/Screenshot 2024-07-31 at 20.19.14.png>)
+![Friend requests menu with one received friend request in romanian](<demo_screenshots/Screenshot 2024-07-31 at 20.19.30.png>)
+
+![Friends list in english](<demo_screenshots/Screenshot 2024-07-31 at 20.19.43.png>)
+![Empty conversation between two friends in romanian and english](<demo_screenshots/Screenshot 2024-07-31 at 20.20.20.png>)
+
+![Conversation demo](<demo_screenshots/Screenshot 2024-07-31 at 20.21.07.png>)
+
+![One of the friends is now logged out](<demo_screenshots/Screenshot 2024-07-31 at 20.21.18.png>)
+
+![-](<demo_screenshots/Screenshot 2024-07-31 at 20.21.22.png>)
+
 ## App usage
 
 To run the `server`, one would navigate to the `/server_folder` and run the following Makefile command:

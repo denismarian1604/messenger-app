@@ -1,0 +1,165 @@
+Server v1.0 update 0 log
+[Wed 2024-07-31 20:15:48] Successfully overwritten SIGINT.
+[Wed 2024-07-31 20:15:48] Finished loading config variables.
+[Wed 2024-07-31 20:15:48] Finished loading clients.(0)
+[Wed 2024-07-31 20:15:48] Finished loading friends.
+[Wed 2024-07-31 20:15:48] [OK] Finished loading friend requests(0)
+[Wed 2024-07-31 20:15:48] [OK] Finished loading the conversations(0)
+[Wed 2024-07-31 20:15:48] [OK] Finished initializing server. Running on socket 6 and on port 16048
+[Wed 2024-07-31 20:15:57] [OK] New connection established on socket 10 from IP 192.168.100.206 on port 53605
+[Wed 2024-07-31 20:16:02] [OK] New connection established on socket 11 from IP 192.168.100.206 on port 53608
+[Wed 2024-07-31 20:16:03] [OK] Databases maintenance thread started 0
+[Wed 2024-07-31 20:16:03] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:16:03] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:16:03] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:16:03] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:16:03] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:16:18] [OK] Databases maintenance thread started 0
+[Wed 2024-07-31 20:16:18] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:16:18] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:16:18] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:16:18] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:16:18] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:16:33] [OK] Databases maintenance thread started 0
+[Wed 2024-07-31 20:16:33] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:16:33] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:16:33] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:16:33] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:16:33] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:16:48] [OK] Databases maintenance thread started 0
+[Wed 2024-07-31 20:16:48] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:16:48] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:16:48] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:16:48] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:16:48] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:16:59] [OK] New client registered : denis_marian.vladulescu.
+[Wed 2024-07-31 20:17:03] [OK] Databases maintenance thread started 1
+[Wed 2024-07-31 20:17:03] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:17:03] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:17:03] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:17:03] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:17:03] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:17:11] [OK] Client(client) logged in : denis_marian.vladulescu -- 847876.
+[Wed 2024-07-31 20:17:18] [OK] Databases maintenance thread started 1
+[Wed 2024-07-31 20:17:18] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:17:18] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:17:18] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:17:18] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:17:18] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:17:27] [OK] New client registered : foxy.vladulescu.
+[Wed 2024-07-31 20:17:32] [OK] Client logged out : denis_marian.vladulescu
+[Wed 2024-07-31 20:17:33] [OK] Databases maintenance thread started 2
+[Wed 2024-07-31 20:17:33] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:17:33] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:17:33] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:17:33] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:17:33] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:17:46] [OK] New client registered : deadpool.
+[Wed 2024-07-31 20:17:48] [OK] Databases maintenance thread started 3
+[Wed 2024-07-31 20:17:48] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:17:48] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:17:48] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:17:48] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:17:48] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:17:58] [OK] New client registered : wolverine.
+[Wed 2024-07-31 20:18:03] [OK] Databases maintenance thread started 4
+[Wed 2024-07-31 20:18:03] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:18:03] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:18:03] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:18:03] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:18:03] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:18:07] [WARN] Failed log in attempt caused by wrong password on username : deadpool.
+[Wed 2024-07-31 20:18:18] [OK] Databases maintenance thread started 4
+[Wed 2024-07-31 20:18:18] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:18:18] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:18:18] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:18:18] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:18:18] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:18:29] [OK] Client(client) logged in : deadpool -- 551720.
+[Wed 2024-07-31 20:18:33] [OK] Databases maintenance thread started 4
+[Wed 2024-07-31 20:18:33] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:18:33] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:18:33] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:18:33] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:18:33] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:18:37] [OK] Client(client) logged in : wolverine -- 169832.
+[Wed 2024-07-31 20:18:48] [OK] Databases maintenance thread started 4
+[Wed 2024-07-31 20:18:48] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:18:48] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:18:48] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:18:48] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:18:48] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:18:54] [OK] New connection established on socket 12 from IP 192.168.100.206 on port 53692
+[Wed 2024-07-31 20:18:54] [OK] New connection established on socket 13 from IP 192.168.100.206 on port 53694
+[Wed 2024-07-31 20:19:03] [OK] Databases maintenance thread started 4
+[Wed 2024-07-31 20:19:03] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:19:03] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:19:03] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:19:03] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:19:03] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:19:18] [OK] Databases maintenance thread started 4
+[Wed 2024-07-31 20:19:18] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:19:18] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:19:18] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:19:18] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:19:18] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:19:33] [OK] Databases maintenance thread started 4
+[Wed 2024-07-31 20:19:33] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:19:33] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:19:33] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:19:33] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:19:33] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:19:47] [OK] New connection established on socket 14 from IP 192.168.100.206 on port 53706
+[Wed 2024-07-31 20:19:47] [OK] New connection established on socket 15 from IP 192.168.100.206 on port 53707
+[Wed 2024-07-31 20:19:48] [OK] Databases maintenance thread started 4
+[Wed 2024-07-31 20:19:48] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:19:48] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:19:48] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:19:48] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:19:48] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:19:55] [OK] New connection established on socket 12 from IP 192.168.100.206 on port 53710
+[Wed 2024-07-31 20:19:55] [OK] New connection established on socket 16 from IP 192.168.100.206 on port 53712
+[Wed 2024-07-31 20:20:03] [OK] Databases maintenance thread started 4
+[Wed 2024-07-31 20:20:03] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:20:03] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:20:03] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:20:03] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:20:03] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:20:18] [OK] Databases maintenance thread started 4
+[Wed 2024-07-31 20:20:18] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:20:18] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:20:18] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:20:18] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:20:18] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:20:33] [OK] Databases maintenance thread started 4
+[Wed 2024-07-31 20:20:33] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:20:33] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:20:33] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:20:33] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:20:33] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:20:48] [OK] Databases maintenance thread started 4
+[Wed 2024-07-31 20:20:48] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:20:48] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:20:48] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:20:48] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:20:48] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:21:03] [OK] Databases maintenance thread started 4
+[Wed 2024-07-31 20:21:03] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:21:03] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:21:03] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:21:03] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:21:03] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:21:16] [OK] Client logged out : deadpool
+[Wed 2024-07-31 20:21:18] [OK] Databases maintenance thread started 4
+[Wed 2024-07-31 20:21:18] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:21:18] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:21:18] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:21:18] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:21:18] [OK] Databases maintenance finished successfully.
+[Wed 2024-07-31 20:21:31] [OK] Client logged out : wolverine
+[Wed 2024-07-31 20:21:33] [OK] Databases maintenance thread started 4
+[Wed 2024-07-31 20:21:33] [OK] Users database maintenance finished
+[Wed 2024-07-31 20:21:33] [OK] Friends database maintenance finished
+[Wed 2024-07-31 20:21:33] [OK] Friend requests database maintenance finished
+[Wed 2024-07-31 20:21:33] [OK] Conversations database maintenance finished
+[Wed 2024-07-31 20:21:33] [OK] Databases maintenance finished successfully.
