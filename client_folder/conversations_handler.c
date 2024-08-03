@@ -5,6 +5,8 @@ int validation_key;
 char friend[200];
 char config_file[200];
 int client_socket;
+char IP[20];
+int PORT;
 
 static void sigint_handler(int signum) {
     close(client_socket);
@@ -94,6 +96,15 @@ int main() {
     strncpy(config_file, line, strlen(line));
     config_file[strlen(config_file) - 1] = '\0';
 
+    memset(line, 0, 200);
+    getline(&line, &line_len, information_file);
+    strncpy(IP, line, strlen(line));
+    IP[strlen(IP) - 1] = '\0';
+
+    memset(line, 0, 200);
+    getline(&line, &line_len, information_file);
+    PORT = atoi(line);
+
     free(line);
 
     char **config_vars = load_config_client(config_file);
@@ -109,7 +120,7 @@ int main() {
     client_addr.sin_port = htons(PORT);
     client_addr.sin_addr.s_addr = inet_addr(IP);
 
-    // launch a second connection to the server
+    // launch another connection to the server
     if (connect(client_socket, (struct sockaddr *)&client_addr, sizeof(client_addr)) < 0) {
         printf("Error connecting to server\n");
         exit(-1);

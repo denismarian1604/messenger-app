@@ -1,5 +1,7 @@
 #include "server.h"
 
+extern int PORT;
+
 int init_server(int *server_socket, struct sockaddr_in *server_address) {
     *server_socket = socket(AF_INET, SOCK_STREAM, 0);
     if (server_socket < 0) {

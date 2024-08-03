@@ -4,6 +4,8 @@ extern int client_status;
 extern char logged_user[100];
 extern int validation_key;
 extern char config_file[100];
+extern char IP[20];
+extern int PORT;
 
 void client_init(int *client_socket, struct sockaddr_in *client_addr) {
     *client_socket = socket(AF_INET, SOCK_STREAM, 0);
@@ -619,7 +621,7 @@ void send_message_handler(int client_socket, char **config_vars) {
     ptr_tmp = realpath(final_tmp_path, absolute_tmp_file);
 
     FILE *information_file = fopen(absolute_tmp_file, "w");
-    fprintf(information_file, "%s\n%s\n%s\n%s\n", logged_user, validation_key_string, username, absolute_config_file);
+    fprintf(information_file, "%s\n%s\n%s\n%s\n%s\n%d\n", logged_user, validation_key_string, username, absolute_config_file, IP, PORT);
     fclose(information_file);
 
 

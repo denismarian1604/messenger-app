@@ -8,9 +8,6 @@
 #include <pthread.h>
 #include <time.h>
 
-#define PORT 16048
-#define IP "192.168.100.206"
-
 #define NR_VARS 67
 
 #define ONLINE 16

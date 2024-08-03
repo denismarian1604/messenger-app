@@ -6,6 +6,9 @@ int validation_key = -1;
 char config_file[100];
 int client_socket;
 
+char IP[20] = {0};
+int PORT = -1;
+
 static void sigint_handler(int signum) {
     close(client_socket);
     printf("Caught signal %d\n", signum);
@@ -20,14 +23,24 @@ int main(int argc, char *argv[]) {
     memset (&sa, 0, sizeof (sa));
     sa.sa_handler = sigint_handler;
 
-    if (argc != 2) {
-        printf("Usage: ./client <desired_language>\nCurrently supported languages: ro, en\n");
+    memcpy(IP, argv[2], strlen(argv[2]));
+    PORT = atoi(argv[3]);
+
+    if (argc != 4) {
+        printf("Usage: ./client <desired_language> <server_ip> <server_port>\nCurrently supported languages: ro, en\n");
         exit(-1);
     }
 
-    memset(config_file, 0, 100);
+    if (strcmp(argv[1], "ro") != 0 && strcmp(argv[1], "en") != 0) {
+        printf("Invalid language. Currently supported languages: ro, en. Defaulting to en.\n");
+        
+        memset(config_file, 0, 100);
+        sprintf(config_file, "../configs/client_config_en.txt");
+    } else {
+        memset(config_file, 0, 100);
+        sprintf(config_file, "../configs/client_config_%s.txt", argv[1]);
+    }
 
-    sprintf(config_file, "../configs/client_config_%s.txt", argv[1]);
 
     FILE *client_log_file = fopen("client_log.txt", "w");
     if (!client_log_file) {

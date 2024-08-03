@@ -8,10 +8,7 @@
 #include <pthread.h>
 #include <time.h>
 
-#define VERSION "v1.0 update 0"
-
-#define PORT 16048
-#define IP "192.168.100.206"
+#define VERSION "v1.0 update 1"
 
 #define MAX_MESSAGE_SIZE 2000
 #define MESSAGE_T_SIZE sizeof(struct message)

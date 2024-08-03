@@ -1,5 +1,7 @@
 #include "server.h"
 
+int PORT = -1;
+
 void free_client(client_t *client) {
     if (client->_info->_username != NULL) {
         free(client->_info->_username);
@@ -36,10 +38,12 @@ int main(int argc, char *argv[]) {
     // seed the random number generator
     srand(time(NULL));
 
-    if (argc != 4) {
-        printf("Usage: ./server <config_file> <clients_database_file> <clients_friends_database>\n");
+    if (argc != 5) {
+        printf("Usage: ./server <config_file> <clients_database_file> <clients_friends_database> <server_port>\n");
         exit(-1);
     }
+
+    PORT = atoi(argv[4]);
 
     struct sigaction sa;
     memset (&sa, 0, sizeof (sa));

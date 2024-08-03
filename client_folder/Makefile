@@ -10,9 +10,9 @@ take_message_input_from_user: take_message_input_from_user.c conversations_handl
 	gcc -Wall -o take_message_input_from_user $^
 
 run_ro: client
-	./client ro
+	./client ro $(IP) $(PORT)
 run_en: client
-	./client en
+	./client en $(IP) $(PORT)
 
 clean:
 	rm -f client

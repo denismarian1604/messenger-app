@@ -4,6 +4,8 @@
 
 ## Project description
 
+> **VERSION** : v1.0 update 1
+
 The idea of the project was to build a basic messenger app that would mimic the *Yahoo! Messenger* app. The main features the app should have are:
 - Being able to register as a new user
 - Being able to log in as an existing user
@@ -12,7 +14,7 @@ The idea of the project was to build a basic messenger app that would mimic the 
 
 Besides not having a very pretty interface to work with and not having profile pictures for the users(which may be solved easily on UNIX systems thanks to integrated tools), the project touches all those essential features.
 
-> **NOTE**: The project has been developed completely and only tested on macOS(Sonoma). In order for it to work on linux, the **Terminal.app** app should be replaced with **gnome-terminal**, but this is yet to be tested.
+> **NOTE(1)**: The project has been developed completely and only tested on macOS(Sonoma). In order for it to work on linux, the **Terminal.app** app should be replaced with **gnome-terminal**, but this is yet to be tested.
 
 ## Data Structures used
 
@@ -124,15 +126,13 @@ In the case of the upper presented request, the reponse will look like this(if `
 
 To run the `server`, one would navigate to the `/server_folder` and run the following Makefile command:
 
-> `make clean && make build && make run`
+> `make clean && make build && make run PORT="desired_port"`
 
 To run one `client` instance, one would navigate to the `/client_folder` and run one of the following Makefile commands:
 
-> `make clean && make build && make run_ro` *-- for a romanian-speaking client*\
-> `make clean && make build && make run_en` *-- for an english-speaking client*
+> `make clean && make build && make run_ro IP="desired_ip" PORT="desired_PORT"` *-- for a romanian-speaking client*\
+> `make clean && make build && make run_en IP="desired_ip" PORT="desired_PORT"` *-- for an english-speaking client*
 
 > **NOTE(2)** : In order for the messages to work, the client machines `must` have a `/tmp` folder(a `tmp` folder in the root directory).
 
-> **NOTE(3)** : As per `version 1.0 update 0` the server `IP` and `PORT` are to be changed manually in the source code. From a future update, these two would be parameters when running the server and the client with the `make` commands.
-
-> **NOTE(4)** : The present binaries are compiled on `macOS Sonoma Version 14.5, 31/07/2024` on an `M2 Mac`.
+> **NOTE(3)** : The present binaries are compiled on `macOS Sonoma Version 14.5, 03/08/2024` on an `M2 Mac`.
